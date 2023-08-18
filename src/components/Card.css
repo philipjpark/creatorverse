@@ -1,0 +1,45 @@
+.card {
+    height: 900px;
+    width: 500px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
+
+.iconSquareContainer {
+    position: relative;
+}
+
+.iconSquare {
+    position: absolute;
+    top: 0;
+    right: 0;
+    behavior: smooth;   
+  }
+
+.icon-edit {
+    behavior: smooth;
+}
+
+.cardImage {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.cardEdit {
+    text-align: center;
+}
+
+/* .cardDescription {
+    flex-grow: 1;
+    padding: 10px;
+    max-height: 100px; 
+    overflow: hidden;
+  } */
+
+/* .truncateText {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */

@@ -1,0 +1,12 @@
+.objective {
+    padding: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+  .showCreators {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }

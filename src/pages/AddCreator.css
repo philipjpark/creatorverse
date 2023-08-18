@@ -1,0 +1,44 @@
+main { 
+    background-color: white;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    font-size: calc(10px + 2vmin);
+    padding: 20px;
+}
+
+h1 {
+    color: black
+}
+
+.addCreator {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.addCreatorForm {
+  /* font-weight:bold;  */
+  font-style:normal;
+  font-size: calc(10px + 2vmin);
+  color: #242f37;
+  background-color:white;
+  padding:20px;
+  flex-direction: row;  
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+input:not([type=checkbox],[type=radio]), select, textarea {
+    background: white;
+}
+
+textarea#description {
+    background: white;
+}
+
+[tabindex], a, area, button, input, label, select, summary, textarea {
+    background: white;
+}
